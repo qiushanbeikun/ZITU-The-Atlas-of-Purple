@@ -1,0 +1,167 @@
+{
+    "lands": [
+        {
+            "landName": "nchNorth",
+            "landY": 8,
+            "landX": 8,
+            "buildings": [
+                [
+                    {
+                        "buildingType": "government",
+                        "positionX": 0,
+                        "positionY": 0,
+                        "buildingLevel": 1
+                    },
+                    0,
+                    {
+                        "buildingType": "housing",
+                        "positionX": 2,
+                        "positionY": 0,
+                        "buildingLevel": 1,
+                        "additionalInfo": 5
+                    },
+                    {
+                        "buildingType": "housing",
+                        "positionX": 3,
+                        "positionY": 0,
+                        "buildingLevel": 1,
+                        "additionalInfo": 5
+                    },
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    {
+                        "buildingType": "warehouse",
+                        "positionX": 2,
+                        "positionY": 1,
+                        "buildingLevel": 1,
+                        "additionalInfo": 500
+                    },
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "buildingInfo": [
+                {
+                    "buildingType": "government",
+                    "positionX": 0,
+                    "positionY": 0,
+                    "buildingLevel": 1
+                },
+                {
+                    "buildingType": "housing",
+                    "positionX": 1,
+                    "positionY": 0,
+                    "buildingLevel": 1,
+                    "population": 5
+                },
+                {
+                    "buildingType": "housing",
+                    "positionX": 2,
+                    "positionY": 0,
+                    "buildingLevel": 1,
+                    "population": 5
+                },
+                {
+                    "buildingType": "warehouse",
+                    "positionX": 2,
+                    "positionY": 1,
+                    "buildingLevel": 1,
+                    "capacity": 500
+                }
+            ]
+        }
+    ],
+    "population": {
+        "level1": 10,
+        "level2": 0,
+        "level3": 0,
+        "level4": 0
+    },
+    "resources": {
+        "level1": {
+            "currency": 100,
+            "mine": 100,
+            "food": 100,
+            "construction": 50
+        },
+        "level2": 0,
+        "level3": 0,
+        "level4": 0
+    },
+    "army": {
+        "level1": [],
+        "level2": [],
+        "level3": [],
+        "level4": []
+    },
+    "hallows": []
+}
