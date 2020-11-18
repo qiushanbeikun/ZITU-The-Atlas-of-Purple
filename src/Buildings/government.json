@@ -1,0 +1,30 @@
+{
+    "BASE_POPULATION_CAPACITY": 100,
+    "MINOR_UPGRADE_RESOURCES": [
+        {
+            "credit": 50
+        },
+        {
+            "mineral": 10
+        },
+        {
+            "homeDepot": 10
+        }
+    ],
+    "STEP_UPGRADE_RESOURCES": [
+        {
+            "credit": 50
+        },
+        {
+            "mineral": 10
+        },
+        {
+            "homeDepot": 10
+        }
+    ],
+    "BASE_MAINTENANCE_FEE": [
+        {
+            "credit": 5
+        }
+    ]
+}

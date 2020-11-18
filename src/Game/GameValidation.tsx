@@ -9,16 +9,9 @@ load的过程应该validate保存的json中的各种数据，防止被sb玩家�
 
  */
 
-export const GameValidation = (event: any) => {
-    event.preventDefault();
-    try {
+export const GameValidation = () => {
         saveGameValidationProcess(newGameTemplate as savedGame);
-    } catch (e) {
-        alert(`Game file validation failed for: ${e}`);
-    }
-    let newGame = new Game(newGameTemplate as savedGame);
-
-    // todo: generate random obstacles on the map
+        return newGameTemplate;
 };
 
 function checkBuildingOccupancy(curBuilding: Building, buildings: building[][]): boolean {
